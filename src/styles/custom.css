@@ -1,0 +1,30 @@
+/* Dark mode colors */
+:root {
+  /* Hues for accent color - changing to a vibrant teal/emerald */
+  --sl-hue-accent: 160;
+  
+  /* Hues for gray color - shifting slightly towards a cool gray */
+  --sl-hue-gray: 220;
+
+  /* Adjust accent colors */
+  --sl-color-accent-low: hsl(var(--sl-hue-accent), 40%, 20%);
+  --sl-color-accent: hsl(var(--sl-hue-accent), 80%, 60%);
+  --sl-color-accent-high: hsl(var(--sl-hue-accent), 80%, 90%);
+
+  /* Override the background to a deep cool navy/gray */
+  --sl-color-bg-nav: hsl(var(--sl-hue-gray), 30%, 15%);
+  --sl-color-bg: hsl(var(--sl-hue-gray), 30%, 10%);
+  
+  /* Text colors */
+  --sl-color-text-accent: var(--sl-color-accent-high);
+}
+
+/* Light mode overrides (if needed, but Starlight defaults to dark usually, let's just make sure light mode looks good too) */
+:root[data-theme='light'] {
+  --sl-color-accent-low: hsl(var(--sl-hue-accent), 80%, 80%);
+  --sl-color-accent: hsl(var(--sl-hue-accent), 80%, 40%);
+  --sl-color-accent-high: hsl(var(--sl-hue-accent), 80%, 20%);
+  
+  --sl-color-bg-nav: hsl(var(--sl-hue-gray), 20%, 95%);
+  --sl-color-bg: hsl(var(--sl-hue-gray), 10%, 99%);
+}
