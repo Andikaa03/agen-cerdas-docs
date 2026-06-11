@@ -1,36 +1,65 @@
 ---
-title: Transaksi Agen (Keuangan)
-description: Cara gampang nyatet layanan agen kayak tarik tunai, transfer, dan top-up.
+title: Transaksi Agen
+description: Catat tarik tunai, setor tunai, transfer, pembayaran, top up, dan pulsa.
 ---
 
-Buat kamu yang buka jasa BRILink, Mandiri Agen, atau top-up Dana/OVO, fitur **Transaksi Agen** ini bakal kepake banget. Semua mutasi duit keluar-masuk rekening kamu bakal kecatat rapi di sini, plus untung (fee admin) yang kamu dapet juga otomatis kepisah!
+Menu **Transaksi Agen** dipakai untuk mencatat layanan keuangan seperti tarik tunai, setor tunai, transfer, pembayaran, top up, pulsa, dan transaksi lainnya. Setiap transaksi akan masuk ke daftar transaksi, mempengaruhi akun kas/bank yang dipilih, dan membuat riwayat arus kas.
 
 ![Daftar Transaksi Agen](/images/transaksi-agen.png)
 
-## 1. Gimana Cara Kerjanya?
-Di aplikasi ini, kita pisahin antara **Uang Mutasi** (duit pokok pelanggannya) sama **Uang Admin** (ongkos jasa buat kamu). Ini biar duit modal di rekening kamu gak kecampur-campur pas lagi ngitung untung bersih.
+## 1. Ringkasan Halaman
 
-### Kasus Nyata: Tarik Tunai sejuta (Rp 1.000.000)
-Misalnya ada Pak Budi mau tarik tunai sejuta. Dia transfer duit sejuta dari banknya ke rekening BCA kamu, terus kamu kasih duit *cash* sejuta ke dia. Kamu juga minta ongkos jasa Rp 10.000.
+Di bagian atas ada kartu ringkasan per tipe transaksi:
 
-## 2. Cara Nyatetnya di Aplikasi
+- **Semua**
+- **Tarik Tunai**
+- **Setor Tunai**
+- **Transfer**
+- **Pembayaran**
+- **Top Up**
+- **Pulsa & Kuota**
 
-Gampang banget kok, tinggal klik tombol **Tambah** atau **Catat Transaksi** di pojok kanan atas. Nanti bakal muncul layar *popup* form buat diisi.
+Setiap kartu menampilkan jumlah transaksi, nominal, dan profit sesuai filter tanggal yang aktif.
+
+## 2. Membuat Transaksi
 
 ![Tambah Transaksi Agen](/images/transaksi-agen-create.png)
 
-Tinggal isi aja form-nya:
-1. **Jenis Layanan**: Pilih aja Tarik Tunai.
-2. **Bank/Provider Asal**: Karena duitnya masuk ke rekening BCA kamu, pilih BCA.
-3. **Sumber Dana Kasir**: Karena kamu ngeluarin duit kertas dari laci kasir, pilih Kas Tunai (Laci).
-4. **Nilai Mutasi**: Ketik `1000000`.
-5. **Fee Admin (Jasa)**: Ketik `10000`.
-6. Terus tinggal klik **Simpan** deh!
+Klik **Transaksi Baru**, lalu isi form:
+
+1. **Tipe Transaksi**: pilih Tarik Tunai, Setor Tunai, Transfer, Pembayaran, Top Up, Pulsa & Kuota, atau Lainnya.
+2. **Laci**: pilih akun kas fisik yang dipakai.
+3. **Mesin EDC / Bank** atau **Akun Top Up / Pulsa**: pilih rekening atau akun provider yang terlibat.
+4. **Nominal**: isi nilai pokok transaksi.
+5. **Harga Jual / Biaya Admin**: isi nominal yang dibayar nasabah atau biaya jasa sesuai mode input.
+6. **Admin Dalam**: isi biaya dari provider jika ada.
+7. **Isi detail tambahan** jika ingin memilih customer atau menambahkan catatan.
+8. Klik **Simpan**.
+
+## 3. Cara Hitungan Saldo
+
+Sistem memisahkan uang pokok, admin customer, admin provider, dan profit bersih.
+
+Contoh tarik tunai:
+- Nasabah transfer ke rekening/EDC agen.
+- Laci kas mengeluarkan uang tunai ke nasabah.
+- Biaya admin menjadi profit setelah dikurangi admin provider.
+
+Contoh top up atau pembayaran:
+- Laci menerima uang dari nasabah.
+- Akun top up/provider berkurang sesuai nominal.
+- Selisih harga jual dan admin provider menjadi profit.
+
+## 4. Hutang dan Customer
+
+Untuk tipe **Top Up** dan **Pembayaran**, transaksi bisa dicatat sebagai hutang. Jika dicentang, pilih customer agar tagihan masuk ke menu **Daftar Hutang**.
+
+## 5. Cetak Struk
+
+Centang **Cetak struk** jika ingin mencetak setelah transaksi disimpan. Tombol Bluetooth dipakai untuk menghubungkan printer thermal melalui Web Bluetooth. Jika printer belum terhubung, ikon Bluetooth akan menunjukkan status belum tersambung.
+
+> [!NOTE]
+> Web Bluetooth hanya berjalan di browser yang mendukung, seperti Chrome atau Edge, dan perangkat harus punya Bluetooth aktif.
 
 > [!IMPORTANT]
-> **Otomatis Beres!** Begitu kamu simpan, sistem bakal pinter ngatur sendiri:
-> - Rekening BCA kamu kecatat nambah `Rp 1.000.000`
-> - Duit di laci kasir kamu kecatat ngurang `Rp 1.000.000`
-> - Untung hari ini langsung nambah `Rp 10.000`
->
-> Jadi kamu gak usah ribet ngitung manual, pokoknya dijamin klop!
+> Setelah transaksi tersimpan, data akan masuk ke daftar transaksi dan arus kas cabang aktif. Kalau kasir hanya punya akses satu cabang, transaksi hanya dibuat di cabang tersebut.

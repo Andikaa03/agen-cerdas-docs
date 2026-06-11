@@ -1,33 +1,42 @@
 ---
-title: Inventaris Produk
-description: Nyatet barang jualan, modal, dan mantau stok gudang.
+title: Item
+description: Kelola item produk, harga jual, modal, SKU, kategori, dan stok cabang.
 ---
 
-Buat kamu yang jualan barang fisik, menu **Inventaris** ini wajib diisi ya. Soalnya, kasir nggak bakal bisa jualan (transaksi POS) kalo barangnya belom kamu daftarin di sini.
+Menu **Item** dipakai untuk mendaftarkan barang yang dijual di **Transaksi Fisik**. Setiap item bisa punya harga jual, modal/HPP, SKU, barcode, kategori, dan stok sesuai cabang aktif.
 
 ![Halaman Produk](/images/inventaris.png)
 
-## 1. Bikin Kategori Dulu
-Biar barangnya nggak berantakan, bikin kategori dulu (misalnya: "Sembako", "Minuman Dingin", "Aksesoris HP").
-1. Buka menu **Inventaris** -> **Kategori**.
-2. Klik tombol **Tambah**.
-3. Ketik nama kategorinya, terus klik **Simpan**.
+## 1. Buat Kategori Dulu
 
-## 2. Daftarin Produk Baru
-1. Masuk ke menu **Inventaris** -> **Item Produk**.
+Biar item gampang dicari saat transaksi, buat kategori terlebih dahulu.
+
+1. Buka menu **Kategori**.
 2. Klik tombol **Tambah**.
-3. Isi form yang muncul:
-   - **Nama**: (Contoh: "Beras Pandan Wangi 5kg")
-   - **Harga jual**: Harga buat pembeli.
-   - **Stok Awal**: Masukin jumlah barangnya di gudang sekarang pas pertama kali bikin item.
-   - **Harga beli / HPP**: Kalo mau aplikasi ngitung profit, centang "Aktifkan Harga Beli" dan masukin modal kamu.
-4. Klik **Simpan Item**.
+3. Ketik nama kategori, misalnya "Sembako", "Minuman", atau "Aksesoris".
+4. Klik **Simpan**.
+
+## 2. Tambah Item Baru
+
+1. Buka menu **Item**.
+2. Klik tombol **Tambah**.
+3. Isi data item:
+   - **Nama Item**
+   - **Kategori**
+   - **Harga Jual**
+   - **Modal / HPP** jika ingin profit dihitung otomatis
+   - **SKU atau Barcode** jika dipakai
+   - **Stok awal** untuk cabang aktif
+4. Klik **Simpan**.
 
 > [!TIP]
 > **Punya banyak barang?** 
-> Kamu nggak perlu input satu-satu! Gunakan tombol **Upload Excel** di halaman Item Produk buat masukin ratusan barang sekaligus. Tinggal download template-nya, isi di Excel, terus upload!
+> Gunakan fitur import jika tersedia di halaman Item untuk memasukkan banyak produk sekaligus dari file spreadsheet.
 
-## 3. Gimana Kalo Mau Nambah / Ngurangin Stok Nanti?
-Kalo nanti ada kiriman barang baru dari agen, atau ada barang rusak, **jangan ubah stok lewat Edit Item!** Fitur edit item emang sengaja dikunci buat ubah stok.
+## 3. Mengubah Stok
 
-Buat nambah atau ngurangin stok, silakan buka menu **Perubahan Stok**. Di sana semua riwayat keluar masuk barang (baik karena terjual, refund, atau rusak) dicatat rapi!
+Setelah item dibuat, penambahan, pengurangan, atau transfer stok sebaiknya dilakukan dari menu **Perubahan Stok**. Dengan begitu semua riwayat stok tetap tercatat rapi.
+
+## 4. Akses Kasir
+
+Kasir hanya bisa melihat item sesuai cabang yang diberikan. Kalau permission **Pilihan Item** dimatikan di Role Akses, kasir tidak bisa memilih item di form yang membutuhkan pilihan item.

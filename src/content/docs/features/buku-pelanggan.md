@@ -1,14 +1,14 @@
 ---
 title: Buku Pelanggan
-description: Daftar kontak nasabah atau pembeli setia kamu.
+description: Daftar customer untuk transaksi, hutang, dan catatan pelanggan.
 ---
 
-Buat nyatet orang yang sering transaksi (atau sering ngutang!), kamu harus masukin nama mereka ke **Buku Pelanggan** dulu.
+Menu **Buku Pelanggan** dipakai untuk menyimpan data customer atau nasabah. Data ini bisa dipilih saat mencatat transaksi agen, transaksi fisik, atau hutang.
 
 ![Daftar Pelanggan](/images/buku-pelanggan.png)
 
 ## Cara Tambah Pelanggan
-1. Klik menu **Buku Pelanggan**.
+1. Klik menu **Buku Pelanggan** di grup **Hutang & Nasabah**.
 2. Klik tombol **Tambah**.
 3. Nanti muncul layar *popup*. Ketik nama orangnya (misal: "Ibu Sumi").
 4. Kalo mau komplit, isi juga nomer hape sama alamat rumahnya.
@@ -16,4 +16,4 @@ Buat nyatet orang yang sering transaksi (atau sering ngutang!), kamu harus masuk
 
 ![Tambah Pelanggan](/images/buku-pelanggan-create.png)
 
-Pelanggan yang udah kecatat di mari, nanti namanya bakal otomatis muncul pas kamu lagi transaksi di layar Kasir (buat naruh nama yang ngutang atau yang lagi narik tunai gede).
+Pelanggan yang sudah dibuat akan muncul di pilihan customer, selama user punya permission **Pilihan Customer**.

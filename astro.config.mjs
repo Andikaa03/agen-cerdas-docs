@@ -30,8 +30,8 @@ export default defineConfig({
         {
           label: 'Transaksi Fisik',
           items: [
-            { label: 'Transaksi POS', link: '/features/transaksi-fisik/' },
-            { label: 'Item Produk', link: '/features/inventaris/' },
+            { label: 'Transaksi', link: '/features/transaksi-fisik/' },
+            { label: 'Item', link: '/features/inventaris/' },
             { label: 'Kategori', link: '/features/kategori/' },
             { label: 'Perubahan Stok', link: '/features/perubahan-stok/' },
           ],

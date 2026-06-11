@@ -3,7 +3,7 @@ title: Akun Kas
 description: Atur laci duit dan rekening bank yang kamu pake buat mutasi.
 ---
 
-Buat nampung uang mutasi, aplikasi Budceipt nyediain menu khusus bernama **Akun Kas**. Bayangin aja ini kayak dompet atau laci kasir tempat nyimpen uang masuk dan uang keluar.
+Menu **Akun Kas** dipakai untuk mengelola laci kas, rekening bank, EDC, e-wallet, atau akun top up yang dipakai transaksi. Setiap akun kas terikat ke cabang, sehingga saldo cabang tidak bercampur.
 
 ![Daftar Akun Kas](/images/akun-kas.png)
 
@@ -12,10 +12,16 @@ Misalnya kamu baru buka rekening Mandiri khusus buat usaha agen, cara masukinnya
 1. Klik menu **Akun Kas**.
 2. Klik tombol **Tambah**.
 3. Di kotak yang muncul, ketik nama akunnya (Contoh: "Bank Mandiri" atau "Laci Toko Depan").
-4. Kalo mau, masukin juga saldo awalnya berapa.
-5. Klik **Simpan**.
+4. Pilih tipe akun, misalnya Kas, Bank, EDC, atau akun lain sesuai kebutuhan.
+5. Isi saldo awal jika akun sudah punya saldo.
+6. Jika perlu, isi provider, nomor rekening, dan catatan.
+7. Klik **Simpan**.
 
 ![Tambah Akun Kas](/images/akun-kas-create.png)
 
 ## 2. Gunanya Buat Apa?
-Kalo kamu nyatet orang narik uang atau nyetor uang, sistem bakal otomatis minta kamu milih "Uangnya ditarik dari akun mana?" nah dari situ sistem bakal pinter ngurangin saldo bank kamu dan nambahin saldo laci kasir kamu, atau sebaliknya. Jadi duit fisik dan duit bank nggak bakal pusing ngitungnya!
+Kalo kamu nyatet tarik tunai, setor tunai, top up, pembayaran, atau penjualan fisik, sistem akan meminta akun kas yang dipakai. Dari pilihan itu, saldo dan arus kas akan otomatis berubah sesuai transaksi.
+
+## 3. Ubah Saldo
+
+Owner atau user yang diberi akses bisa melakukan **Ubah Saldo** untuk koreksi saldo akun. Setiap perubahan saldo akan tercatat di Arus Kas agar riwayatnya tetap jelas.

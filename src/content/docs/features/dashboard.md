@@ -1,24 +1,52 @@
 ---
 title: Dashboard
-description: Cek ringkasan jualan dan untung toko kamu hari ini.
+description: Cek saldo, performa bulan ini, aktivitas terbaru, dan ringkasan usaha.
 ---
 
-Halaman **Dashboard** ini ibarat layar utama atau pos satpam toko kamu. Pas kamu baru buka aplikasi, kamu bakal langsung disuguhin rangkuman lengkap soal gimana performa toko kamu hari ini. Gak perlu pusing ngitung manual lagi!
+Halaman **Dashboard** adalah layar utama setelah login. Di sini owner atau kasir bisa melihat kondisi cabang aktif: saldo, kuota, pendapatan hari ini, pendapatan bulan ini, aktivitas terbaru, dan grafik performa.
 
 ![Tampilan Dashboard Utama](/images/dashboard.png)
 
-## 1. Milih Cabang Toko
-Liat di pojok kiri atas? Ada kotak buat milih cabang. 
-- **Buat apa sih?** Kalau kamu punya lebih dari satu toko (misal Toko Pusat dan Toko Cabang 1), kamu tinggal gonta-ganti dari sini aja.
-- Begitu kamu pilih "Toko Cabang 1", **semua angka dan grafik** di bawahnya bakal langsung berubah nampilin khusus data jualan Cabang 1 doang. Gampang kan?
+## 1. Cabang Aktif
 
-## 2. Angka-Angka Penting (Metrik)
-Biar gampang mantau duit, kita bagi-bagi angkanya:
-- **Pendapatan Agen**: Ini total duit jasa (fee admin) yang masuk hari ini sama bulan ini. (Misal dari orang tarik tunai atau top-up).
-- **Pendapatan Kasir Fisik**: Kalau yang ini total jualan barang fisik kayak sembako, token fisik, atau minuman.
-- **Laba Kotor & Bersih**: Ini yang paling penting! Keliatan langsung kamu untung berapa bersihnya setelah dikurangin modal barang.
+Data dashboard mengikuti cabang yang aktif di sidebar.
 
-## 3. Grafik Biar Enak Liatnya
-Garis-garis naik turun ini bukan hiasan doang ya. Ini nunjukin tren jualan kamu dari hari ke hari. Dari sini kamu bisa tau, "Oh, ternyata toko gue paling rame tiap hari Jumat!" 
+- Owner bisa memilih cabang lain.
+- Kasir non-owner hanya melihat cabang yang diberikan owner.
+- Semua transaksi, stok, arus kas, dan laporan otomatis mengikuti cabang tersebut.
 
-Nah, dari data itu kamu bisa siap-siap nyetok barang lebih banyak di hari Jumat deh.
+## 2. Kartu Saldo
+
+Bagian atas menampilkan:
+- **Total Saldo**: gabungan saldo akun kas dan rekening cabang.
+- **Saldo akun kas/bank utama**: contoh laci kas atau EDC bank yang paling penting.
+- **Persentase naik/turun**: dibandingkan bulan lalu.
+
+Warna indikator:
+- Hijau berarti naik.
+- Merah berarti turun.
+- Abu-abu berarti tidak berubah atau belum ada pembanding.
+
+## 3. Kuota Cabang dan User
+
+Kartu kuota hanya muncul untuk owner. Kasir tidak melihat informasi limit paket.
+
+- **Kuota Cabang** menunjukkan jumlah cabang terpakai dari batas paket.
+- **Kuota User** menunjukkan jumlah user aktif dari batas paket.
+
+## 4. Pendapatan Agen dan Fisik
+
+Bagian pendapatan dipisah agar mudah dibaca:
+
+- **Pendapatan Agen** berisi omzet, pendapatan kotor, admin bank/provider, pendapatan bersih, hutang belum lunas, dan jumlah transaksi agen.
+- **Pendapatan Fisik** berisi pendapatan kotor, keuntungan, hutang belum lunas, dan jumlah transaksi fisik.
+
+Setiap kartu menampilkan nilai **Hari ini** dan **Bulan ini**.
+
+## 5. Aktivitas Terbaru
+
+Panel aktivitas terbaru menampilkan transaksi agen dan transaksi fisik paling baru di cabang aktif. Jam yang tampil mengikuti waktu lokal perangkat.
+
+## 6. Performa Bulan Ini
+
+Grafik performa menampilkan ringkasan bulan berjalan, seperti pendapatan bersih dan jumlah transaksi. Gunakan grafik ini untuk melihat hari mana yang paling ramai.

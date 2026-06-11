@@ -1,22 +1,29 @@
 ---
-title: Pengaturan Cabang
-description: Cara ngatur banyak toko dari satu HP doang.
+title: Daftar Cabang
+description: Kelola cabang, alamat, mode shift, dan kuota cabang.
 ---
 
-Buat bos-bos yang usahanya udah gede dan punya banyak toko, fitur **Pengaturan Cabang** ini penyelamat banget! Kamu bisa mantau stok dan duit semua toko cuma dari satu layar tanpa pusing bolak-balik login.
+Menu **Daftar Cabang** dipakai owner untuk mengelola cabang usaha. Setiap cabang punya stok, akun kas, transaksi, arus kas, dan laporan sendiri.
 
 ![Pengaturan Cabang](/images/pengaturan-cabang.png)
 
-## 1. Nambah Cabang Baru
+## 1. Menambah Cabang Baru
 
-Misalnya kamu baru buka cabang baru, cara masukinnya gampang:
-1. Klik menu **Pengaturan Cabang**.
+1. Klik menu **Daftar Cabang**.
 2. Klik tombol **Tambah** yang ada di pojok kanan atas.
-3. Nanti bakal muncul kotak. Tinggal ketik **Nama Cabang** (misal: "Toko Sembako Depan").
-4. Kalo mau lebih rapi, isi juga alamat lengkapnya.
-5. Klik **Simpan**. Beres deh! Cabangnya udah resmi terdaftar.
+3. Isi **Nama Cabang**.
+4. Isi **Alamat** jika diperlukan.
+5. Centang **Mode Shift** jika cabang mewajibkan kasir membuka dan menutup shift.
+6. Klik **Simpan**.
 
-## 2. Kenapa Harus Dipisah per Cabang?
-- **Duit Nggak Ketuker**: Omzet Cabang A nggak bakal nyampur sama Cabang B. Laporan keuangannya rapi jali!
-- **Stok Terpisah**: Kamu bisa mantau sisa barang di tiap toko secara akurat.
-- **Karyawan Nggak Kepo**: Kalo kamu tugasin budi jaga di Cabang A, dia **nggak bakal bisa** liat penghasilan atau stok di Cabang B. Rahasia perusahaan tetep aman!
+## 2. Kuota Cabang
+
+Jumlah cabang dibatasi oleh paket langganan. Kalau kuota habis, tombol tambah cabang akan terkunci sampai owner menambah add-on atau upgrade paket.
+
+## 3. Akses User per Cabang
+
+- Owner bisa memilih dan melihat semua cabang.
+- User non-owner dikunci ke cabang yang dipilih saat dibuat.
+- Data transaksi, stok, akun kas, hutang, shift, dan laporan user non-owner hanya mengikuti cabangnya.
+
+Dengan pemisahan ini, kasir Cabang A tidak bisa melihat data Cabang B.

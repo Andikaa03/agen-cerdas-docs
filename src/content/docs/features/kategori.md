@@ -3,7 +3,7 @@ title: Kategori Produk
 description: Kelompokkin barang dagangan biar gampang dicari.
 ---
 
-Buat jualan sembako atau barang fisik, bakal pusing banget kalo ribuan barang dicampur jadi satu. Makanya, sebelum masukin barang ke Inventaris, mending kamu buatin "Kardus" atau kelompoknya dulu di menu **Kategori**.
+Menu **Kategori** dipakai untuk mengelompokkan item produk. Kategori membuat pencarian barang di Transaksi Fisik lebih cepat dan rapi.
 
 ![Halaman Kategori](/images/kategori.png)
 
@@ -17,4 +17,4 @@ Cara bikinnya super cepet:
 
 ![Tambah Kategori](/images/kategori-create.png)
 
-Nanti pas kasir lagi jualan (di menu Transaksi Fisik), mereka tinggal milih kategori "Minuman Dingin" dan otomatis semua es teh, kopi, atau air mineral bakal langsung muncul semua. Jualan jadi makin cepet!
+Nanti saat kasir membuka **Transaksi Fisik**, kategori bisa dipakai untuk menyaring daftar item. Kalau permission **Pilihan Kategori** dimatikan di Role Akses, user tidak bisa memilih kategori pada form tertentu.

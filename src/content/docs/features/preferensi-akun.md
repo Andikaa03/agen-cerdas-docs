@@ -3,7 +3,7 @@ title: Preferensi Akun (Pengaturan)
 description: Atur format struk kasir dan cara input transaksi harian kamu.
 ---
 
-Menu **Preferensi Akun** (atau Pengaturan Cabang) adalah tempat buat ngatur hal-hal teknis supaya transaksi kasir kamu makin mulus. Di sini kamu bisa ngatur tulisan di struk dan milih kebiasaan (preferensi) cara kamu nginput harga.
+Menu **Preferensi Akun** adalah tempat mengatur teks struk dan mode input transaksi. Pengaturan ini membantu form transaksi mengikuti kebiasaan toko.
 
 ![Halaman Preferensi Akun](/images/preferensi-akun.png)
 
@@ -16,20 +16,20 @@ Biar kelihatan lebih profesional pas nge-print struk buat pelanggan, kamu bisa t
 - **Footer Struk**: Ini teks yang muncul di paling bawah struk. Cocok buat ucapan terima kasih atau info garansi.
   *(Contoh: Terima kasih sudah belanja. Barang yang sudah dibeli tidak dapat ditukar)*
 
-Kalo udah diganti, jangan lupa klik **Simpan**. Nanti semua struk yang dicetak kasir bakal otomatis ngikutin format ini.
+Kalo udah diganti, klik **Simpan**. Struk yang dicetak dari Transaksi Agen dan Transaksi Fisik akan mengikuti teks ini.
 
 ## 2. Preferensi Transaksi (Pilih Mode Input)
 
-Tiap agen punya kebiasaan beda-beda pas ngitung untung. Nah, di bagian **Preferensi Transaksi**, kamu bisa milih mode input bawaan (*default*) buat tiap jenis layanan (kayak Tarik Tunai, Pulsa, atau Transfer).
+Tiap agen punya kebiasaan beda-beda pas ngitung untung. Di bagian **Preferensi Transaksi**, kamu bisa memilih mode input bawaan untuk jenis layanan seperti Tarik Tunai, Pulsa, atau Transfer.
 
 Ada 2 pilihan mode:
 
 ### Mode "Biaya Admin" (Paling Sering Dipake)
-Kalo kamu pilih mode ini, nanti pas kasir nginput transaksi, mereka harus ngetik **Nominal Asli** dan **Biaya Jasa (Admin)**. Nanti aplikasi yang bakal otomatis ngitungin total yang harus dibayar nasabah.
-- *Contoh Kasus:* Ada orang tarik tunai sejeti (Rp 1.000.000). Kamu minta jasa Rp 10.000. Kamu tinggal ketik 1.000.000 di kolom nominal, dan 10.000 di kolom admin. Aplikasi otomatis nyatet uang masuk dari pelanggan Rp 1.010.000.
+Kalo kamu pilih mode ini, kasir mengisi **Nominal** dan **Biaya Admin**. Aplikasi menghitung total yang harus dibayar nasabah.
+- *Contoh Kasus:* Ada orang tarik tunai Rp 1.000.000. Kamu minta jasa Rp 10.000. Kamu tinggal ketik 1.000.000 di kolom nominal, dan 10.000 di kolom admin. Aplikasi otomatis nyatet uang masuk dari pelanggan Rp 1.010.000.
 
 ### Mode "Harga Jual" (Buat Jualan Pulsa/Token)
-Kalo kamu pilih mode ini, pas kasir nginput transaksi, mereka ngetik **Nominal Modal** dan **Total Harga Jual** langsung. Nanti aplikasi yang pinter nyari tau untung (admin) kamu berapa.
+Kalo kamu pilih mode ini, kasir mengisi **Nominal Modal** dan **Harga Jual**. Aplikasi menghitung selisihnya sebagai admin/profit.
 - *Contoh Kasus:* Ada orang beli pulsa 50 ribu (modal kamu Rp 49.500), tapi kamu jual Rp 52.000. Kamu tinggal ketik 49.500 di nominal, dan 52.000 di harga jual. Aplikasi bakal otomatis tau kalo untung (admin) kamu Rp 2.500.
 
 Tinggal geser-geser aja tombol biru nya sesuai kebiasaan toko kamu biar kasir nggak bingung!
