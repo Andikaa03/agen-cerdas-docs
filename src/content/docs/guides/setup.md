@@ -1,9 +1,9 @@
 ---
 title: Setup dan Pengenalan
-description: Panduan awal memakai Budceipt.
+description: Panduan awal memakai Solusi Agen.
 ---
 
-Selamat datang di Budceipt, aplikasi pencatatan transaksi agen, POS barang fisik, arus kas, stok, hutang, cabang, user, role, dan laporan usaha.
+Selamat datang di Solusi Agen, aplikasi pencatatan transaksi agen, POS barang fisik, arus kas, stok, hutang, cabang, user, role, dan laporan usaha.
 
 Panduan ini ditujukan untuk owner, admin, dan kasir yang memakai aplikasi dari browser. Semua data mengikuti cabang aktif dan hak akses user yang sedang login.
 
