@@ -4,7 +4,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
   integrations: [
     starlight({
-      title: 'Solusi Agen Docs',
+      title: 'Agen Cerdas Docs',
       head: [],
       customCss: ['./src/styles/custom.css'],
       sidebar: [
