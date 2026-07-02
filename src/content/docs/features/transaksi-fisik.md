@@ -17,6 +17,8 @@ Menu **Transaksi Fisik** dipakai untuk mencatat penjualan barang toko. Barang ya
 
 Kalau stok item kosong, item tidak bisa dijual sampai stok ditambah dari menu **Perubahan Stok**.
 
+Kolom pilih item bisa dicari berdasarkan nama item. Ini membantu saat jumlah produk sudah banyak.
+
 ## 2. Pembayaran
 
 Saat checkout, pilih metode pembayaran:
@@ -28,6 +30,8 @@ Saat checkout, pilih metode pembayaran:
 
 Pilih customer jika transaksi perlu dicatat atas nama pelanggan tertentu.
 
+Pilihan **Kas Tujuan** bisa dicari berdasarkan nama akun kas. Akun bernama **Laci** muncul paling atas agar transaksi tunai lebih cepat.
+
 ## 3. Setelah Checkout
 
 Saat transaksi berhasil disimpan:
@@ -38,3 +42,14 @@ Saat transaksi berhasil disimpan:
 > 3. Arus kas dibuat sesuai metode pembayaran.
 > 4. Hutang customer dibuat jika pembayaran dicatat sebagai hutang.
 > 5. Profit dihitung dari harga jual dikurangi modal/HPP jika data modal item tersedia.
+
+## 4. Diskon dan Catatan
+
+Gunakan kolom diskon jika pelanggan mendapat potongan harga. Catatan dipakai untuk informasi tambahan, misalnya nomor pesanan, alasan diskon, atau permintaan khusus pelanggan.
+
+## 5. Cetak Struk
+
+Centang **Cetak struk** jika ingin mencetak bukti transaksi. Jika memakai printer Bluetooth, sambungkan printer terlebih dahulu dari tombol Bluetooth di form transaksi.
+
+> [!TIP]
+> Atur header dan footer struk dari menu **Preferensi Akun** agar struk menampilkan nama toko, alamat, atau ucapan terima kasih.

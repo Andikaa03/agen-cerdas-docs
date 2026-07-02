@@ -25,3 +25,33 @@ Kalo kamu nyatet tarik tunai, setor tunai, top up, pembayaran, atau penjualan fi
 ## 3. Ubah Saldo
 
 Owner atau user yang diberi akses bisa melakukan **Ubah Saldo** untuk koreksi saldo akun. Setiap perubahan saldo akan tercatat di Arus Kas agar riwayatnya tetap jelas.
+
+Jenis aksi yang umum tersedia:
+
+- **Saldo Baru**: menyetel saldo akun ke nominal tertentu.
+- **Penambahan**: menambah saldo karena ada uang masuk manual.
+- **Penarikan**: mengurangi saldo karena uang keluar manual.
+- **Pindah Saldo**: memindahkan saldo dari satu akun ke akun lain.
+- **Transfer Cabang**: memindahkan saldo ke akun cabang lain jika fitur cabang aktif.
+
+## 4. Prioritas Laci
+
+Akun dengan nama **Laci** diprioritaskan di daftar pilihan akun kas. Ini memudahkan kasir memilih akun tunai utama tanpa perlu mencari terlalu lama.
+
+Contoh penamaan yang disarankan:
+
+- `Laci (Kas)`
+- `Laci Cabang Utama`
+- `Laci Shift Pagi`
+
+## 5. Kapan Harus Koreksi Saldo?
+
+Koreksi saldo sebaiknya dipakai untuk kondisi khusus, misalnya:
+
+- Saldo awal akun baru belum sesuai.
+- Ada selisih setelah cocokkan uang fisik.
+- Ada transaksi lama yang tidak sempat dicatat.
+- Ada uang masuk/keluar non-transaksi yang perlu dicatat.
+
+> [!CAUTION]
+> Jika transaksi aslinya masih bisa dibuat dari menu transaksi, lebih baik catat dari menu transaksi. Koreksi saldo hanya dipakai jika memang butuh penyesuaian manual.

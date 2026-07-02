@@ -45,3 +45,30 @@ Contoh: user boleh membuat transaksi agen, tetapi permission **Pilihan Rekening*
 
 > [!IMPORTANT]
 > Role tidak boleh dicek dari nama seperti "Kasir" saja. Owner bisa membuat nama role apa pun. Yang benar adalah mengikuti permission yang aktif di role tersebut.
+
+## Contoh Role Kasir
+
+Untuk kasir umum, permission yang biasanya dinyalakan:
+
+- Dashboard lihat.
+- Transaksi Agen lihat dan buat.
+- Transaksi Fisik lihat dan buat.
+- Pilihan Rekening.
+- Pilihan Item.
+- Pilihan Kategori.
+- Pilihan Customer jika toko memakai hutang.
+- Hutang lihat dan bayar jika kasir boleh menerima pembayaran hutang.
+- Shift buka/tutup jika cabang memakai mode shift.
+
+Permission yang biasanya dimatikan:
+
+- Hapus data.
+- Pengaturan owner.
+- Role akses.
+- Daftar cabang.
+- Langganan.
+- Laporan profit jika owner tidak ingin kasir melihat keuntungan.
+
+## Setelah Role Diubah
+
+Jika role user diubah tetapi tampilan belum berubah, minta user logout lalu login kembali. Ini memastikan permission terbaru dibaca ulang oleh aplikasi.

@@ -37,3 +37,27 @@ Sistem akan mengurangi stok cabang sumber dan menambah stok di setiap cabang tuj
 
 > [!CAUTION]
 > Kalau total distribusi melebihi stok sumber, tabel akan berubah merah dan tombol simpan tidak bisa dipakai sampai jumlah transfer dikurangi.
+
+## 3. Biaya Tambah Stok
+
+Jika pembelian stok memakai uang dari laci atau rekening usaha, centang **Biaya tambah stok** saat melakukan penambahan stok.
+
+Manfaatnya:
+
+- Stok bertambah.
+- Saldo akun kas yang dipilih berkurang.
+- Arus kas keluar tercatat otomatis.
+- Owner bisa melihat biaya pembelian barang dari laporan arus kas.
+
+Pilihan akun kas bisa dicari berdasarkan nama. Akun **Laci** muncul paling atas agar lebih cepat dipilih.
+
+## 4. Membaca Riwayat Stok
+
+Riwayat stok membantu menjawab pertanyaan seperti:
+
+- Kenapa stok barang berkurang?
+- Siapa yang melakukan koreksi?
+- Barang dikirim ke cabang mana?
+- Kapan stok masuk dari supplier?
+
+Gunakan filter tanggal dan pencarian item untuk mempercepat pengecekan.

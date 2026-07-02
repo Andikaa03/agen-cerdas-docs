@@ -33,3 +33,34 @@ Kalo kamu pilih mode ini, kasir mengisi **Nominal Modal** dan **Harga Jual**. Ap
 - *Contoh Kasus:* Ada orang beli pulsa 50 ribu (modal kamu Rp 49.500), tapi kamu jual Rp 52.000. Kamu tinggal ketik 49.500 di nominal, dan 52.000 di harga jual. Aplikasi bakal otomatis tau kalo untung (admin) kamu Rp 2.500.
 
 Tinggal geser-geser aja tombol biru nya sesuai kebiasaan toko kamu biar kasir nggak bingung!
+
+## 3. Pengaruh ke Form Transaksi
+
+Preferensi transaksi mengubah label dan cara hitung form. Contohnya:
+
+- Pada mode **Biaya Admin**, kasir mengisi nominal dan biaya jasa.
+- Pada mode **Harga Jual**, kasir mengisi modal/nominal dan harga jual ke customer.
+
+Pengaturan ini membantu mengurangi salah input karena tiap jenis layanan bisa punya kebiasaan hitung yang berbeda.
+
+## 4. Tips Pengaturan Struk
+
+Isi header dan footer singkat agar struk tetap mudah dibaca di printer thermal.
+
+Contoh header:
+
+```text
+Agen Cerdas Cell
+Jl. Melati No. 10
+WA 0812-0000-0000
+```
+
+Contoh footer:
+
+```text
+Terima kasih sudah bertransaksi
+Simpan struk ini sebagai bukti
+```
+
+> [!NOTE]
+> Struk yang dicetak lewat Bluetooth mengikuti kemampuan printer dan browser yang dipakai.

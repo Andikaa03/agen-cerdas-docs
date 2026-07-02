@@ -21,6 +21,9 @@ Di bagian atas ada kartu ringkasan per tipe transaksi:
 
 Setiap kartu menampilkan jumlah transaksi, nominal, dan profit sesuai filter tanggal yang aktif.
 
+> [!NOTE]
+> Filter tanggal tersimpan per halaman. Jika di halaman Transaksi Agen kamu memilih **Hari ini**, pilihan itu akan dipakai lagi saat halaman dibuka ulang tanpa mempengaruhi filter tanggal halaman lain.
+
 ## 2. Membuat Transaksi
 
 ![Tambah Transaksi Agen](/images/transaksi-agen-create.png)
@@ -35,6 +38,8 @@ Klik **Transaksi Baru**, lalu isi form:
 6. **Admin Dalam**: isi biaya dari provider jika ada.
 7. **Isi detail tambahan** jika ingin memilih customer atau menambahkan catatan.
 8. Klik **Simpan**.
+
+Pilihan **Laci**, **Mesin EDC / Bank**, dan akun provider bisa dicari berdasarkan nama akun. Akun bernama **Laci** diprioritaskan agar lebih cepat dipilih kasir.
 
 ## 3. Cara Hitungan Saldo
 
@@ -63,3 +68,18 @@ Centang **Cetak struk** jika ingin mencetak setelah transaksi disimpan. Tombol B
 
 > [!IMPORTANT]
 > Setelah transaksi tersimpan, data akan masuk ke daftar transaksi dan arus kas cabang aktif. Kalau kasir hanya punya akses satu cabang, transaksi hanya dibuat di cabang tersebut.
+
+## 6. Void atau Batalkan Transaksi
+
+Jika terjadi salah input, user yang punya izin dapat melakukan void transaksi. Void akan membuat penyesuaian agar saldo dan laporan tidak dobel.
+
+Sebelum void, cek kembali:
+
+- Tipe transaksi.
+- Nominal pokok.
+- Akun laci dan akun provider.
+- Biaya admin dan admin dalam.
+- Customer atau status hutang.
+
+> [!CAUTION]
+> Jangan menghapus atau void transaksi tanpa alasan jelas. Gunakan catatan internal agar owner tahu penyebab perubahan.

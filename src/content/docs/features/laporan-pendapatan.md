@@ -39,3 +39,19 @@ Bagian bulan ini menampilkan metrik yang sama, tetapi untuk bulan berjalan. Perb
 Grafik membantu melihat perkembangan omzet, pendapatan kotor, pendapatan bersih, dan admin provider dari hari ke hari.
 
 Rekap per tipe transaksi menunjukkan tipe transaksi paling banyak dipakai, total pokok, jumlah transaksi, dan profit.
+
+## 5. Filter Tanggal
+
+Gunakan filter tanggal untuk melihat laporan periode tertentu, misalnya hari ini, 7 hari terakhir, bulan ini, atau custom range.
+
+Pilihan filter disimpan per halaman. Artinya jika kamu mengatur Dashboard Laporan ke **Hari ini**, halaman lain seperti Arus Kas atau Transaksi Fisik tidak ikut berubah.
+
+## 6. Cara Membaca Profit
+
+Profit bersih umumnya berasal dari:
+
+- Biaya admin yang dibayar customer.
+- Selisih harga jual dan modal transaksi.
+- Dikurangi admin provider atau biaya dalam jika diisi.
+
+Jika angka profit terasa tidak sesuai, cek transaksi yang memiliki admin provider, transaksi hutang, atau transaksi void.

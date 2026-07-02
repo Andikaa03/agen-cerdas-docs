@@ -40,3 +40,25 @@ Eh ternyata besoknya Pak Budi mampir dan bayar utangnya 20 ribu dulu (nyicil). B
 
 > [!NOTE]
 > Pembayaran hutang akan membuat arus kas masuk. Sisa hutang otomatis berkurang sesuai nominal yang dibayar.
+
+## 4. Status Hutang
+
+Status hutang membantu membaca kondisi tagihan:
+
+- **Belum Lunas**: belum ada pembayaran atau belum cukup lunas.
+- **Sebagian**: pelanggan sudah membayar sebagian.
+- **Lunas**: hutang sudah terbayar penuh.
+
+## 5. Masuk ke Akun Kas
+
+Saat menerima pembayaran hutang, pilih akun kas tujuan agar uang masuk tercatat jelas. Jika pembayaran tidak ingin mempengaruhi kas, pilih opsi untuk tidak memasukkan ke kas.
+
+Pilihan akun kas bisa dicari berdasarkan nama, dan akun **Laci** muncul di urutan atas.
+
+## 6. Tips Mengelola Kasbon
+
+- Pilih customer sebelum menyimpan hutang.
+- Isi catatan agar alasan hutang jelas.
+- Catat pembayaran cicilan segera saat uang diterima.
+- Cek daftar hutang secara rutin agar tagihan tidak menumpuk.
+- Gunakan Buku Pelanggan untuk menyimpan nomor HP pelanggan.

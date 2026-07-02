@@ -6,9 +6,12 @@ hero:
   tagline: Pelajari cara menggunakan Agen Cerdas untuk mengelola bisnis dan agen Anda.
   actions:
     - text: Mulai Membaca
-      link: /features/dashboard/
+      link: /guides/setup/
       icon: right-arrow
       variant: primary
+    - text: Operasional Harian
+      link: /guides/operasional-harian/
+      icon: open-book
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
@@ -16,6 +19,9 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 ## Mulai Eksplorasi
 
 <CardGrid stagger>
+  <Card title="Setup Awal" icon="setting">
+    Urutan awal setelah daftar: cabang, akun kas, role, user, item, dan preferensi struk.
+  </Card>
   <Card title="Manajemen Transaksi" icon="pencil">
     Pelajari cara mencatat transaksi keagenan maupun transaksi fisik (POS).
   </Card>
@@ -28,4 +34,23 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
   <Card title="Laporan & Arus Kas" icon="open-book">
     Cara membaca ringkasan profit, pencatatan hutang, dan laporan harian.
   </Card>
+  <Card title="Install Aplikasi" icon="rocket">
+    Pasang Agen Cerdas di Chrome atau Edge agar bisa dibuka seperti aplikasi desktop.
+  </Card>
 </CardGrid>
+
+## Untuk Siapa Dokumentasi Ini?
+
+Dokumentasi ini dibuat untuk owner, admin cabang, dan kasir yang memakai Agen Cerdas untuk operasional harian.
+
+- **Owner**: mulai dari setup cabang, akun kas, role akses, user, laporan, dan langganan.
+- **Admin cabang**: memantau arus kas, stok, hutang, shift, dan laporan cabang.
+- **Kasir**: mencatat transaksi agen, transaksi fisik, pembayaran hutang, dan tutup shift.
+
+## Alur Belajar yang Disarankan
+
+1. Baca **Setup Awal** untuk memahami urutan konfigurasi.
+2. Baca **Operasional Harian** untuk memahami alur buka toko sampai tutup shift.
+3. Pelajari menu inti: **Transaksi Agen**, **Transaksi Fisik**, **Akun Kas**, dan **Arus Kas**.
+4. Jika punya karyawan, pelajari **Role Akses** dan **User & Karyawan**.
+5. Jika memakai barang fisik, pelajari **Item**, **Kategori**, dan **Perubahan Stok**.

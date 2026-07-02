@@ -40,3 +40,30 @@ Setelah item dibuat, penambahan, pengurangan, atau transfer stok sebaiknya dilak
 ## 4. Akses Kasir
 
 Kasir hanya bisa melihat item sesuai cabang yang diberikan. Kalau permission **Pilihan Item** dimatikan di Role Akses, kasir tidak bisa memilih item di form yang membutuhkan pilihan item.
+
+## 5. Data Harga dan Profit
+
+Ada dua harga penting pada item:
+
+- **Harga Jual**: harga yang dibayar pelanggan.
+- **Modal/HPP**: biaya modal barang.
+
+Profit transaksi fisik dihitung dari selisih harga jual dan modal/HPP. Jika modal tidak diisi, profit bisa tidak akurat.
+
+## 6. SKU dan Barcode
+
+SKU atau barcode membantu pencarian barang dan mencegah nama item kembar. Gunakan kode yang konsisten jika toko punya banyak item.
+
+Contoh:
+
+- `SKU-MINUMAN-AQUA600`
+- `VCR-TSEL-5GB`
+- `KBL-TYPEC-VGR18`
+
+## 7. Tips Menjaga Data Item
+
+- Gunakan nama item yang jelas dan mudah dicari.
+- Kelompokkan item ke kategori yang tepat.
+- Update harga jual jika supplier berubah harga.
+- Jangan langsung menghapus item yang masih punya riwayat transaksi.
+- Gunakan **Perubahan Stok** untuk stok masuk/keluar agar riwayat tetap rapi.

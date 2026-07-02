@@ -39,3 +39,29 @@ Menu yang tidak diberi izin akan otomatis hilang dari sidebar user tersebut.
 
 > [!IMPORTANT]
 > Jangan mengandalkan nama role saja. Role bisa dibuat bebas oleh owner. Akses user ditentukan oleh permission yang aktif di role tersebut.
+
+## 4. Mengubah User
+
+Owner bisa mengubah data user jika ada perubahan nama, cabang, atau role.
+
+Langkah umum:
+
+1. Buka **User & Karyawan**.
+2. Cari user yang ingin diubah.
+3. Klik aksi edit.
+4. Ubah cabang atau role jika diperlukan.
+5. Simpan.
+
+Jika user berpindah cabang, data baru yang dibuat setelah perubahan akan mengikuti cabang baru.
+
+## 5. Menonaktifkan Akses Karyawan
+
+Jika karyawan sudah tidak bekerja, owner sebaiknya segera mencabut aksesnya. Jika tersedia, nonaktifkan user. Jika tidak ada tombol nonaktif, ubah password atau hapus user sesuai kebutuhan operasional.
+
+## 6. Rekomendasi Keamanan
+
+- Jangan memakai satu akun untuk banyak kasir.
+- Berikan role sesuai tugas, bukan akses penuh.
+- Matikan izin hapus dan void untuk kasir biasa.
+- Review role secara berkala.
+- Pisahkan user per cabang agar laporan lebih jelas.

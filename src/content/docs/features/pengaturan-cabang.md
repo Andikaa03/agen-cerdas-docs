@@ -27,3 +27,24 @@ Jumlah cabang dibatasi oleh paket langganan. Kalau kuota habis, tombol tambah ca
 - Data transaksi, stok, akun kas, hutang, shift, dan laporan user non-owner hanya mengikuti cabangnya.
 
 Dengan pemisahan ini, kasir Cabang A tidak bisa melihat data Cabang B.
+
+## 4. Mode Shift
+
+Mode Shift membuat kasir perlu membuka dan menutup shift. Aktifkan mode ini jika owner ingin laporan per periode kerja kasir.
+
+Jika Mode Shift aktif:
+
+- Kasir membuka shift saat mulai kerja.
+- Transaksi selama shift berjalan masuk ke rekap shift.
+- Kasir menutup shift saat selesai kerja.
+- Owner bisa mengecek rekap shift.
+
+Jika Mode Shift mati, kasir bisa transaksi langsung tanpa proses buka/tutup shift.
+
+## 5. Tips Multi Cabang
+
+- Buat nama cabang yang jelas, misalnya `Cabang Utama` atau `Cabang Pasar`.
+- Pastikan user kasir ditempatkan di cabang yang benar.
+- Buat akun kas dan stok awal untuk setiap cabang.
+- Gunakan transfer stok untuk memindahkan barang antar cabang.
+- Gunakan transfer saldo cabang jika perlu memindahkan saldo antar cabang.

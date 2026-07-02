@@ -27,3 +27,26 @@ Kalo masa trial udah mau abis atau kamu mau perpanjang langganan bulanan, gini c
 > [!CAUTION]
 > **Aduh, Kalo Terlanjur Expired Gimana?**
 > Tenang aja! Data transaksi kamu **NGGAK BAKAL DIHAPUS**. Semuanya aman. Cuma, layar jualan sama kasirnya bakal "dikunci" sementara sampe admin acc perpanjangan kamu. Kalo udah dibayar, otomatis kebuka lagi deh semuanya!
+
+## 3. Status Langganan
+
+Status yang umum muncul:
+
+- **Trial**: masa coba gratis masih aktif.
+- **Aktif**: paket berbayar sedang berjalan.
+- **Expired**: masa aktif habis dan beberapa fitur terkunci.
+- **Suspended**: akun dihentikan sementara oleh admin.
+
+## 4. Kuota Cabang dan User
+
+Setiap paket bisa memiliki batas jumlah cabang dan user aktif. Jika kuota habis:
+
+- Owner tidak bisa menambah cabang baru.
+- Owner tidak bisa menambah user baru.
+- Data lama tetap tersimpan.
+
+Jika butuh tambahan, hubungi admin untuk upgrade atau penyesuaian paket.
+
+## 5. Riwayat Invoice
+
+Gunakan riwayat invoice untuk melihat pembayaran yang pernah dibuat, status pembayaran, dan masa aktif paket. Simpan bukti pembayaran sampai status invoice disetujui admin.

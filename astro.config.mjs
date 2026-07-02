@@ -12,7 +12,9 @@ export default defineConfig({
           label: 'Mulai Cepat',
           items: [
             { label: 'Pengenalan', link: '/' },
-            { label: 'Instalasi & Setup', link: '/guides/setup/' }
+            { label: 'Setup Awal', link: '/guides/setup/' },
+            { label: 'Operasional Harian', link: '/guides/operasional-harian/' },
+            { label: 'Install sebagai Aplikasi', link: '/guides/install-aplikasi/' }
           ],
         },
         {
@@ -25,6 +27,7 @@ export default defineConfig({
             { label: 'Dashboard Laporan', link: '/features/laporan-pendapatan/' },
             { label: 'Arus Kas', link: '/features/arus-kas/' },
             { label: 'Akun Kas', link: '/features/akun-kas/' },
+            { label: 'Cocokkan Kas Fisik', link: '/features/cocokkan-kas-fisik/' },
           ],
         },
         {
@@ -50,6 +53,7 @@ export default defineConfig({
           items: [
             { label: 'Daftar Hutang', link: '/features/hutang-nasabah/' },
             { label: 'Buku Pelanggan', link: '/features/buku-pelanggan/' },
+            { label: 'Gadai', link: '/features/gadai/' },
           ],
         },
         { label: 'Preferensi Akun', link: '/features/preferensi-akun/' },

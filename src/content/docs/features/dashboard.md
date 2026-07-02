@@ -50,3 +50,26 @@ Panel aktivitas terbaru menampilkan transaksi agen dan transaksi fisik paling ba
 ## 6. Performa Bulan Ini
 
 Grafik performa menampilkan ringkasan bulan berjalan, seperti pendapatan bersih dan jumlah transaksi. Gunakan grafik ini untuk melihat hari mana yang paling ramai.
+
+## 7. Cara Memakai Dashboard untuk Kontrol Harian
+
+Owner bisa memakai dashboard sebagai layar cek cepat:
+
+1. Cek total saldo akun kas.
+2. Bandingkan pendapatan hari ini dan bulan ini.
+3. Lihat transaksi terbaru untuk memastikan aktivitas kasir normal.
+4. Cek hutang belum lunas.
+5. Cek grafik performa untuk melihat tren ramai atau sepi.
+
+## 8. Jika Angka Terlihat Tidak Sesuai
+
+Coba cek beberapa hal berikut:
+
+- Cabang aktif sudah benar.
+- Filter tanggal di halaman laporan sudah sesuai.
+- Transaksi belum di-void atau belum tersimpan.
+- Hutang belum lunas belum dihitung sebagai uang masuk.
+- Akun kas yang dipilih saat transaksi sudah benar.
+
+> [!TIP]
+> Untuk audit detail, buka **Arus Kas** karena setiap perubahan saldo akun akan punya riwayat mutasi.
